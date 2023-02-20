@@ -26,5 +26,5 @@ console.log(generatedPassword);
 
 // mostro la password sulla pagina
 
-document.querySelector('span').innerHTML = generatedPassword;
+document.getElementById('user_password').innerHTML = generatedPassword;
 
