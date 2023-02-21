@@ -16,13 +16,17 @@ const favoriteColor = prompt('Inserisci il tuo colore preferito');
 
 document.querySelector('h2').innerHTML += ' ' + firstName + ' ' + lastName;
 
+// genero numero password
+
+const passwordNumber = '89';
+
 // salvo la password generata in una variabile
 
-const generatedPassword = `${firstName}${lastName}${favoriteColor}${'89'}`;
+const generatedPassword = `${firstName}${lastName}${favoriteColor}${passwordNumber}`;
 
 // mostro la password in console 
 
-console.log(generatedPassword);
+console.log('La tua password è: ', generatedPassword);
 
 // mostro la password sulla pagina
 
